@@ -81,10 +81,19 @@ streamlit run app.py
 ## **Project Structure**
 
 ```text
-├── app.py              # Main Streamlit application entry point
-├── requirements.txt    # Python package dependencies
-├── .env                # Environment variables (API keys)
-├── vector_db/          # Persistent ChromaDB storage directory
-└── utils/              # Helper modules for document processing & chains
+```text
+├── RAG MODEL/
+│   ├── ui demo/
+│   │   └── (UI screenshots)
+│   └── chroma_db/
+│       └── chroma.sqlite3
+├── streamlit/
+│   └── config.toml
+├── create_database.py
+├── main.py
+├── ui.py
+
+
+```
 
 ```
