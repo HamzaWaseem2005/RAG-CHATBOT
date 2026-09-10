@@ -80,7 +80,7 @@ streamlit run app.py
 
 ## **Project Structure**
 
-```text
+```
 ```text
 ├── RAG MODEL/
 │   ├── ui demo/
